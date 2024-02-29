@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/mac-steak",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
